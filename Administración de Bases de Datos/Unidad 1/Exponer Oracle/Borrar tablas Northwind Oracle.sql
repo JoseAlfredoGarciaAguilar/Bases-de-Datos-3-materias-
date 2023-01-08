@@ -1,0 +1,13 @@
+drop table orderdetails;
+drop table employeeterritories;
+drop table customercustomerdemo;
+drop table customerdemographics;
+drop table products; 
+drop table orders; 
+drop table territories;
+drop table categories;
+drop table suppliers;
+drop table employees;
+drop table customers;
+drop table shippers; 
+drop table region;

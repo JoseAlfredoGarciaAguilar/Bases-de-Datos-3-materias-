@@ -1,0 +1,99 @@
+---1
+create database empleadosExamen
+
+go
+
+use empleadosExamen
+
+go
+
+create table paises(
+
+paisID int not null,
+
+paisNombre varchar(10) not null)
+
+go
+
+create table estados(
+
+edoID int not null,
+
+edoNombre varchar(10) not null,
+
+paisID int not null)
+
+go
+
+create table empleados(
+
+empID int not null,
+
+empNombre varchar(20) not null,
+
+empApellidos varchar(20) not null,
+
+empRFC varchar(13) not null,
+
+empSexo char(1) not null,
+
+empDomicilio varchar(20) not null,
+
+paisID int not null,
+
+edoID int not null,
+
+JEFE int not null)
+
+go
+
+alter table paises add constraint pk_pais primary key(paisid)
+
+alter table estados add constraint pk_estado primary key(edoid)
+
+alter table empleados add constraint pk_empleado primary key(empid)
+
+go
+
+alter table estados add
+
+constraint fk_estados_paises foreign key(paisid) references paises(paisid)
+
+go
+
+alter table empleados add
+
+constraint fk_empleados_estados foreign key(edoid) references estados(edoid),
+
+constraint fk_empleados_empleadosJefe foreign key(jefe) references empleados(empid)
+
+go
+
+Alter  table empleados add
+
+Constraint uc_empleados_rfc unique (emprfc)
+
+go
+
+Alter table empleados add
+
+Constraint cc_empleados_sexo check ( empsexo in ('F','M'))
+--Comentario:
+alter table estados add constraint pk_estado primary key(paisid, edoid )
+
+constraint fk_empleados_estados foreign key(  paisid, edoid ) references estados( paisid, edoid ),
+
+
+--4
+select v.folio, v.fecha, e.empnombre, c.ctenombre
+
+from ventas v
+
+inner join empleados e on e.empid = v.empid
+
+inner join clientes c on c.cteid = v.cteid
+
+where e.emprfc = '' and c.ctecurp = ''
+--ComentariosComentario:
+e.emprfc is null
+

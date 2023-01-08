@@ -1,0 +1,205 @@
+1.-
+
+create proc dbo.EmpleadosClientes(@CLIENTE nchar(5), @EMPLEADOS varchar(1000) output) as
+
+declare @empleadosAux varchar(1000), @numEmpleados int
+
+
+
+   
+
+   select @numEmpleados = min(e.employeeid) 
+
+   from employees e
+
+   right outer join orders o on o.employeeid = e.employeeid and o.customerid = @CLIENTE
+
+
+
+   select @empleadosAux = firstname+' '+lastname+', ' from employees where employeeid = @numEmpleados
+
+   
+
+   while(@numEmpleados is not null)
+
+   begin     
+
+        select @numEmpleados = min(e.employeeid) 
+
+        from employees e
+
+        inner join orders o on o.employeeid = e.employeeid
+
+        where o.customerid = @CLIENTE and e.employeeid > @numEmpleados
+
+        select @empleadosAux = @empleadosAux+ firstname+' '+lastname+', ' from employees where employeeid = @numEmpleados
+
+	end
+
+	select @empleadosAux
+
+
+
+
+
+--EJECUCION 
+
+declare @b varchar(1000)
+
+exec dbo.EmpleadosClientes 'VINET', @b output
+
+
+
+
+
+
+
+2.-
+
+create proc dbo.NombreJefe (@jefe int)
+
+as
+
+select 'Nombre jefe' = j.firstname+' '+j.lastname, 'Nombre empleado' = e.firstname+' '+e.lastname
+
+from employees e
+
+inner join employees j on j.employeeid = e.reportsto
+
+where j.employeeid = @jefe
+
+
+
+--EJECUCION
+
+exec dbo.NombreJefe 2
+
+
+
+
+
+3.-
+
+create function fn_categoriasANIO(@cat1 int, @cat2 int, @AÑO int)
+
+returns varchar(50)
+
+as
+
+begin
+
+   declare @T1 int, @T2 int, @NOMBRE varchar(50)
+
+
+
+   select @T1 = count(od.quantity)
+
+   from  [Order Details] AS oD 
+
+   inner join products p on p.productid = od.productid
+
+   inner join orders o on o.orderid = od.orderid
+
+   where p.categoryid = @cat1 and year(o.orderdate) = @AÑO
+
+   GROUP BY o.OrderID
+
+   
+
+   select @T2 = count(od.quantity)
+
+  from  [Order Details] AS oD 
+
+   inner join products p on p.productid = od.productid
+
+   inner join orders o on o.orderid = od.orderid
+
+   where p.categoryid = @cat2 and year(o.orderdate) = @AÑO
+
+   GROUP BY o.OrderID
+
+
+
+   if @T1 > @T2
+
+      select @NOMBRE = categoryname+' con '+  CAST(@T1 AS NVARCHAR(10)) +' piezas' from categories where categoryid = @cat1
+
+    else
+
+      select @NOMBRE = categoryname+' con '+  CAST(@T1 AS NVARCHAR(10)) +' piezas' from categories where categoryid = @cat2
+
+
+
+   return @NOMBRE
+
+   end
+
+   go
+
+
+
+
+
+--EJECUCION
+
+   SELECT dbo.fn_categoriasANIO(4,1,1996)
+
+
+
+4.-
+
+create function dbo.NombreJefe (@jefe int)
+
+returns table 
+
+as
+
+return(
+
+select 'Nombre jefe' = j.firstname+' '+j.lastname, 'Nombre empleado' = e.firstname+' '+e.lastname
+
+from employees e
+
+inner join employees j on j.employeeid = e.reportsto
+
+where j.employeeid = @jefe
+
+)
+
+
+
+
+
+5.-
+
+create function dbo.EmpleadosTerr()
+
+returns @territorios table(Empleado varchar(100), Territorios varchar(100))
+
+as
+
+begin
+
+ insert @territorios 
+
+   select e.firstname+' '+e.lastname, t.TerritoryDescription
+
+   from employees e
+
+   inner join employeeterritories et on et.employeeid = e.employeeid
+
+   inner join territories t on t.territoryid = et.territoryid 
+
+   group by e.firstname, e.lastname, t.territorydescription
+
+
+
+return
+
+end
+
+
+
+--EJECUCION
+
+select*from dbo.EmpleadosTerr()

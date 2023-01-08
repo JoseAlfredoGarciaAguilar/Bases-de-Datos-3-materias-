@@ -1,0 +1,104 @@
+--proveedores: Bigfoot Breveries y Ma Maison, paises: usa y germany
+select
+{
+[vw Products].[Bigfoot Breveries].CHILDREN,
+[vw Products].[Ma Maison].CHILDREN} ON COLUMNS,
+{CLIENTES.USA.CHILDREN, CLIENTES.Germany.CHILDREN} ON ROWS
+From CuboNW
+WHERE MEASURES.TOTAL
+
+--Lista de elementos segun jerarquia
+select
+[vw Products].[Mayumi's].CHILDREN ON COLUMNS,
+CLIENTES.USA.CHILDREN ON ROWS
+From CuboNW
+Where MEASURES.TOTAL
+
+--combinacion de varias dimensiones en ejes (anidamiento de dimensiones)
+--combinar los empleados y las regiones de USA
+select
+{Tiempo.[AÑO].[1998], Tiempo.[AÑO].[1997]} ON COLUMNS,
+CROSSJOIN(
+{CLIENTES.USA.CHILDREN},
+{empleados.[emp nombre].MEMBERS}) ON ROWS
+FROM CuboNW
+WHERE MEASURES.TOTAL
+
+--no se que hace esto XD
+select
+crossjoin(
+{clientes.MEXICO.CHILDREN},
+{empleados.[emp nombre].CHILDREN}) ON COLUMNS,
+CROSSJOIN(
+Tiempo.[AÑO].CHILDREN, Tiempo.[mes].members) ON ROWS
+FROM CuboNW
+WHERE MEASURES.TOTAL
+
+--proveedores: leka trading, clientes que viven en Mexico D.F
+select
+[vw products].[leka trading].CHILDREN ON COLUMNS,
+CLIENTES.[México D.F.].CHILDREN ON ROWS
+From CuboNW
+WHERE MEASURES.TOTAL
+
+--en los renglones regiones de mexico y empleados
+select
+{Tiempo.[AÑO].[1998], Tiempo.[AÑO].[1997]} ON COLUMNS,
+CROSSJOIN(
+clientes.MEXICO.CHILDREN,
+empleados.[emp nombre].members) ON ROWS
+FROM CuboNW
+WHERE MEASURES.TOTAL
+
+--no se que hace esto DXD
+select crossjoin(
+{clientes.MEXICO.CHILDREN},
+{empleados.[emp nombre].CHILDREN}) ON COLUMNS,
+{[AÑO].[1998], [AÑO].[1997]} ON ROWS
+FROM CuboNW
+WHERE MEASURES.TOTAL
+
+--columnas año-mes, renglones ciudad-empleados
+select
+crossjoin(
+Tiempo.[año].CHILDREN,
+Tiempo.[mes].children) ON COLUMNS,
+CROSSJOIN(
+empleados.[empcity].children,
+empleados.[emp nombre].children) on rows
+from CuboNW
+WHERE MEASURES.TOTAL
+
+--columnas año, renglones regiones-ciudades-empleados
+select
+Tiempo.[año].CHILDREN ON COLUMNS,
+CROSSJOIN(
+empleados.[empregion].children,
+empleados.[empcity].children,
+empleados.[emp nombre].children) on rows
+from CuboNW
+Where MEASURES.TOTAL
+
+--ocultar elementos en ejes
+select
+except(Tiempo.[año].members, {Tiempo.[año].[1998]}) on columns,
+empleados.[emp nombre].members on rows
+from CuboNW
+WHERE MEASURES.TOTAL
+
+--ocultar 1998 y ALL en las columnas
+select
+except(Tiempo.[AÑO].MEMBERS, {Tiempo.[AÑO].[1998], Tiempo.[AÑO].[all]})
+ON COLUMNS,
+empleados.[emp nombre].members on rows
+FROM CuboNW
+WHERE MEASURES.TOTAL
+
+--ocultar 1998 en la dimension AÑO
+--ocultar argentina y brazil en la dimension empleados.empcountry
+select
+except(Tiempo.[AÑO].MEMBERS, {Tiempo.[AÑO].[1998]}) ON COLUMNS,
+EXCEPT(empleados.empcountry.MEMBERS,
+{empleados.empcountry,argentina, empleados.empcountry.brazil}) on rows
+from CuboNW
+WHERE MEASURES.TOTAL

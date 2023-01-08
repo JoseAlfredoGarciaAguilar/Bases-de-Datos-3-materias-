@@ -1,0 +1,38 @@
+CREATE DATABASE PRUEBA
+GO
+USE PRUEBA
+GO
+Create Table ESTADOS
+edoid int not null,
+edoNombre Char( 50 ) not null)
+GO
+Create Table MUNICIPIOS(
+munid int not null,
+munNombre Char( 50 ) not null,
+edoid int not null)
+GO
+Alter Table Estados Add CONSTRAINT pk_Estados PRIMARY KEY ( edoid )
+
+Alter Table municipios Add
+CONSTRAINT PK_MUNICIPIOS PRIMARY_KEY (MUNID)
+CONSTRAINT FK_Municipios_Estados FOREIGN KEY (EDOID) REFERENCES ESTADOS ( edoid ),
+
+insert estados values (1, 'sinaloa')
+insert estados values (2, 'jalisco')
+insert estados values (3, 'colima')
+
+--SE DEBEN INSERTAR MUNICIPIOS CON UN ESTADO DADO DE ALTA
+insert municipios values (1, 'ahome' 1)
+insert municipios values (2, 'guadalajara', 2)
+
+--MARCA ERROR PORQUE NO EXISTE EL ESTADO 4
+insert municipios values (3, 'Hermosillo', 4)
+
+--no permite eliminar un estado con hijos
+delete estados where edoid = 1
+
+--si permite eliminar un estado sin hijos
+delete estados where edoid = 3
+
+--no permite actualizar un estado que no exista
+update municipios set edoid = 4 where munid = 1

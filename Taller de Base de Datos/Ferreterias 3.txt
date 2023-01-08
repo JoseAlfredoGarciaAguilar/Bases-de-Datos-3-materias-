@@ -1,0 +1,24 @@
+--llave externa apuntando hacia una llave unica y no a una llave primaria
+USE PRUEBA
+create tabla envios(
+folio int not null primary key,
+fecha datetime not null,
+rfc char( 13 ) null)
+go
+create table clientes(
+cliid int not null primary key,
+clinombre varchar( 50 ) not null,
+clirfc char( 13 ) null
+)
+go
+--creamos el rfc como llave unica
+alter table clientes add constraint uc_clientes_rfc unique( clirfc )
+--creamos la llave externa de envios apuntando a una clave unica
+alter table envios add constraint fk_envios_clientes foreign key( rfc ) references clientes( clirfc )
+
+--se insertan valores en las dos tablas
+insert clientes values(1, 'carlos lopez', locm800108r5t' )
+--MARCA ERROR EL RFC NO EXISTE EN CLIENTES
+insert envios values( 1000, '1-1-2021', 'XXXX800108r5t' )
+--INSERCION CORRECTA
+insert envios values( 1000, '1-1-2021', 'locm800108r5t' )

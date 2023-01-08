@@ -1,0 +1,29 @@
+--consulta con la clave de la orden, nombre del producto, cantidad precio y total de la venta
+--mostrar solo las ordenes realizadas los dias lunes
+select o.orderid, datename(dw,o.orderdate), p.productname, d.quantity, d.unitprice, total = d.quantity * d.unitprice --importe total
+--las letras sirven como alias para no escribir tanto
+from orders o
+inner join [order details] d on d.orderid = o.orderid -- d de detalle
+inner join products p on p.productid = d.productid -- p de producto
+where
+datepart(dw,o.orderdate)=2 --el dia de la semana empieza en domingo
+
+--consulta con el nombre del empleado y nombre del territorio que atiende
+select empleado = e.firstname + ' ' + e.lastname, t.territorydescription
+from employees e
+inner join employeeterritories X on X.employeeid = e.employeeid
+-inner join territories t on t.territoryid = X.territoryid
+
+select * from employeeterritories
+
+--SELF JOIN, AUTOCOMBINACIONES
+--consulta con el nombre de empleado y nombre de su jefe
+select ClaveEmp = e.employeeid, empleado = E.firstname + ' ' + E.lastname, Jefe = J.firstname + ' ' + J.lastname
+from employees E
+-inner join employees on E.reportsto = J.employeeid
+
+select employeeid, reportsto from employees
+
+--mediante una combinacion externa, se puede mostrar todos los empleados aunque no tengan jefe
+select ClaveEmp = e.employeeid, empleado = E.firtsname + ' ' + E.lastname, Jefe=J.firstname + ' ' + J.lastname, Clavejefe = e.reportsto
+from employees e left outer join employees j on e.reportsto = j.employeeid

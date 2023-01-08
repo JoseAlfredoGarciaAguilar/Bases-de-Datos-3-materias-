@@ -1,0 +1,1367 @@
+﻿<Proyecto>
+<Productos>
+  <Producto clave="1" Proveedor="1" Categoria="1">
+    <Nombre>Chai</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 boxes x 20 bags</CantidadPorUnidad>
+      <PrecioUnitario>18.0000</PrecioUnitario>
+      <UnitInStock>39</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="2" Proveedor="1" Categoria="1">
+    <Nombre>Chang</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 12 oz bottles</CantidadPorUnidad>
+      <PrecioUnitario>19.0000</PrecioUnitario>
+      <UnitInStock>17</UnitInStock>
+      <UnidadesOrden>40</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="3" Proveedor="1" Categoria="2">
+    <Nombre>Aniseed Syrup</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 550 ml bottles</CantidadPorUnidad>
+      <PrecioUnitario>10.0000</PrecioUnitario>
+      <UnitInStock>13</UnitInStock>
+      <UnidadesOrden>70</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="4" Proveedor="2" Categoria="2">
+    <Nombre>Chef Anton's Cajun Seasoning</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>48 - 6 oz jars</CantidadPorUnidad>
+      <PrecioUnitario>22.0000</PrecioUnitario>
+      <UnitInStock>53</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="5" Proveedor="2" Categoria="2">
+    <Nombre>Chef Anton's Gumbo Mix</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>36 boxes</CantidadPorUnidad>
+      <PrecioUnitario>21.3500</PrecioUnitario>
+      <UnitInStock>0</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="6" Proveedor="3" Categoria="2">
+    <Nombre>Grandma's Boysenberry Spread</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 8 oz jars</CantidadPorUnidad>
+      <PrecioUnitario>25.0000</PrecioUnitario>
+      <UnitInStock>120</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="7" Proveedor="3" Categoria="7">
+    <Nombre>Uncle Bob's Organic Dried Pears</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 1 lb pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>30.0000</PrecioUnitario>
+      <UnitInStock>15</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="8" Proveedor="3" Categoria="2">
+    <Nombre>Northwoods Cranberry Sauce</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 12 oz jars</CantidadPorUnidad>
+      <PrecioUnitario>40.0000</PrecioUnitario>
+      <UnitInStock>6</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="9" Proveedor="4" Categoria="6">
+    <Nombre>Mishi Kobe Niku</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>18 - 500 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>97.0000</PrecioUnitario>
+      <UnitInStock>29</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="10" Proveedor="4" Categoria="8">
+    <Nombre>Ikura</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 200 ml jars</CantidadPorUnidad>
+      <PrecioUnitario>31.0000</PrecioUnitario>
+      <UnitInStock>31</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="11" Proveedor="5" Categoria="4">
+    <Nombre>Queso Cabrales</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>1 kg pkg.</CantidadPorUnidad>
+      <PrecioUnitario>21.0000</PrecioUnitario>
+      <UnitInStock>22</UnitInStock>
+      <UnidadesOrden>30</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="12" Proveedor="5" Categoria="4">
+    <Nombre>Queso Manchego La Pastora</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 - 500 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>38.0000</PrecioUnitario>
+      <UnitInStock>86</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="13" Proveedor="6" Categoria="8">
+    <Nombre>Konbu</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>2 kg box</CantidadPorUnidad>
+      <PrecioUnitario>6.0000</PrecioUnitario>
+      <UnitInStock>24</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="14" Proveedor="6" Categoria="7">
+    <Nombre>Tofu</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>40 - 100 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>23.2500</PrecioUnitario>
+      <UnitInStock>35</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="15" Proveedor="6" Categoria="2">
+    <Nombre>Genen Shouyu</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 250 ml bottles</CantidadPorUnidad>
+      <PrecioUnitario>15.5000</PrecioUnitario>
+      <UnitInStock>39</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="16" Proveedor="7" Categoria="3">
+    <Nombre>Pavlova</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>32 - 500 g boxes</CantidadPorUnidad>
+      <PrecioUnitario>17.4500</PrecioUnitario>
+      <UnitInStock>29</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="17" Proveedor="7" Categoria="6">
+    <Nombre>Alice Mutton</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>20 - 1 kg tins</CantidadPorUnidad>
+      <PrecioUnitario>39.0000</PrecioUnitario>
+      <UnitInStock>0</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="18" Proveedor="7" Categoria="8">
+    <Nombre>Carnarvon Tigers</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>16 kg pkg.</CantidadPorUnidad>
+      <PrecioUnitario>62.5000</PrecioUnitario>
+      <UnitInStock>42</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="19" Proveedor="8" Categoria="3">
+    <Nombre>Teatime Chocolate Biscuits</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 boxes x 12 pieces</CantidadPorUnidad>
+      <PrecioUnitario>9.2000</PrecioUnitario>
+      <UnitInStock>25</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="20" Proveedor="8" Categoria="3">
+    <Nombre>Sir Rodney's Marmalade</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>30 gift boxes</CantidadPorUnidad>
+      <PrecioUnitario>81.0000</PrecioUnitario>
+      <UnitInStock>40</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="21" Proveedor="8" Categoria="3">
+    <Nombre>Sir Rodney's Scones</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 pkgs. x 4 pieces</CantidadPorUnidad>
+      <PrecioUnitario>10.0000</PrecioUnitario>
+      <UnitInStock>3</UnitInStock>
+      <UnidadesOrden>40</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="22" Proveedor="9" Categoria="5">
+    <Nombre>Gustaf's Knäckebröd</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 500 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>21.0000</PrecioUnitario>
+      <UnitInStock>104</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="23" Proveedor="9" Categoria="5">
+    <Nombre>Tunnbröd</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 250 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>9.0000</PrecioUnitario>
+      <UnitInStock>61</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="24" Proveedor="10" Categoria="1">
+    <Nombre>Guaraná Fantástica</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 355 ml cans</CantidadPorUnidad>
+      <PrecioUnitario>4.5000</PrecioUnitario>
+      <UnitInStock>20</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="25" Proveedor="11" Categoria="3">
+    <Nombre>NuNuCa Nuß-Nougat-Creme</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>20 - 450 g glasses</CantidadPorUnidad>
+      <PrecioUnitario>14.0000</PrecioUnitario>
+      <UnitInStock>76</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="26" Proveedor="11" Categoria="3">
+    <Nombre>Gumbär Gummibärchen</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>100 - 250 g bags</CantidadPorUnidad>
+      <PrecioUnitario>31.2300</PrecioUnitario>
+      <UnitInStock>15</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="27" Proveedor="11" Categoria="3">
+    <Nombre>Schoggi Schokolade</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>100 - 100 g pieces</CantidadPorUnidad>
+      <PrecioUnitario>43.9000</PrecioUnitario>
+      <UnitInStock>49</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="28" Proveedor="12" Categoria="7">
+    <Nombre>Rössle Sauerkraut</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>25 - 825 g cans</CantidadPorUnidad>
+      <PrecioUnitario>45.6000</PrecioUnitario>
+      <UnitInStock>26</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="29" Proveedor="12" Categoria="6">
+    <Nombre>Thüringer Rostbratwurst</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>50 bags x 30 sausgs.</CantidadPorUnidad>
+      <PrecioUnitario>123.7900</PrecioUnitario>
+      <UnitInStock>0</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="30" Proveedor="13" Categoria="8">
+    <Nombre>Nord-Ost Matjeshering</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 - 200 g glasses</CantidadPorUnidad>
+      <PrecioUnitario>25.8900</PrecioUnitario>
+      <UnitInStock>10</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="31" Proveedor="14" Categoria="4">
+    <Nombre>Gorgonzola Telino</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 100 g pkgs</CantidadPorUnidad>
+      <PrecioUnitario>12.5000</PrecioUnitario>
+      <UnitInStock>0</UnitInStock>
+      <UnidadesOrden>70</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="32" Proveedor="14" Categoria="4">
+    <Nombre>Mascarpone Fabioli</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 200 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>32.0000</PrecioUnitario>
+      <UnitInStock>9</UnitInStock>
+      <UnidadesOrden>40</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="33" Proveedor="15" Categoria="4">
+    <Nombre>Geitost</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>500 g</CantidadPorUnidad>
+      <PrecioUnitario>2.5000</PrecioUnitario>
+      <UnitInStock>112</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="34" Proveedor="16" Categoria="1">
+    <Nombre>Sasquatch Ale</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 12 oz bottles</CantidadPorUnidad>
+      <PrecioUnitario>14.0000</PrecioUnitario>
+      <UnitInStock>111</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="35" Proveedor="16" Categoria="1">
+    <Nombre>Steeleye Stout</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 12 oz bottles</CantidadPorUnidad>
+      <PrecioUnitario>18.0000</PrecioUnitario>
+      <UnitInStock>20</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="36" Proveedor="17" Categoria="8">
+    <Nombre>Inlagd Sill</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 250 g  jars</CantidadPorUnidad>
+      <PrecioUnitario>19.0000</PrecioUnitario>
+      <UnitInStock>112</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="37" Proveedor="17" Categoria="8">
+    <Nombre>Gravad lax</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 500 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>26.0000</PrecioUnitario>
+      <UnitInStock>11</UnitInStock>
+      <UnidadesOrden>50</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="38" Proveedor="18" Categoria="1">
+    <Nombre>Côte de Blaye</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 75 cl bottles</CantidadPorUnidad>
+      <PrecioUnitario>263.5000</PrecioUnitario>
+      <UnitInStock>17</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="39" Proveedor="18" Categoria="1">
+    <Nombre>Chartreuse verte</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>750 cc per bottle</CantidadPorUnidad>
+      <PrecioUnitario>18.0000</PrecioUnitario>
+      <UnitInStock>69</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="40" Proveedor="19" Categoria="8">
+    <Nombre>Boston Crab Meat</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 4 oz tins</CantidadPorUnidad>
+      <PrecioUnitario>18.4000</PrecioUnitario>
+      <UnitInStock>123</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="41" Proveedor="19" Categoria="8">
+    <Nombre>Jack's New England Clam Chowder</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 12 oz cans</CantidadPorUnidad>
+      <PrecioUnitario>9.6500</PrecioUnitario>
+      <UnitInStock>85</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="42" Proveedor="20" Categoria="5">
+    <Nombre>Singaporean Hokkien Fried Mee</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>32 - 1 kg pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>14.0000</PrecioUnitario>
+      <UnitInStock>26</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="43" Proveedor="20" Categoria="1">
+    <Nombre>Ipoh Coffee</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>16 - 500 g tins</CantidadPorUnidad>
+      <PrecioUnitario>46.0000</PrecioUnitario>
+      <UnitInStock>17</UnitInStock>
+      <UnidadesOrden>10</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="44" Proveedor="20" Categoria="2">
+    <Nombre>Gula Malacca</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>20 - 2 kg bags</CantidadPorUnidad>
+      <PrecioUnitario>19.4500</PrecioUnitario>
+      <UnitInStock>27</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="45" Proveedor="21" Categoria="8">
+    <Nombre>Rogede sild</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>1k pkg.</CantidadPorUnidad>
+      <PrecioUnitario>9.5000</PrecioUnitario>
+      <UnitInStock>5</UnitInStock>
+      <UnidadesOrden>70</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="46" Proveedor="21" Categoria="8">
+    <Nombre>Spegesild</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>4 - 450 g glasses</CantidadPorUnidad>
+      <PrecioUnitario>12.0000</PrecioUnitario>
+      <UnitInStock>95</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="47" Proveedor="22" Categoria="3">
+    <Nombre>Zaanse koeken</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 - 4 oz boxes</CantidadPorUnidad>
+      <PrecioUnitario>9.5000</PrecioUnitario>
+      <UnitInStock>36</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="48" Proveedor="22" Categoria="3">
+    <Nombre>Chocolade</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>12.7500</PrecioUnitario>
+      <UnitInStock>15</UnitInStock>
+      <UnidadesOrden>70</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="49" Proveedor="23" Categoria="3">
+    <Nombre>Maxilaku</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 50 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>20.0000</PrecioUnitario>
+      <UnitInStock>10</UnitInStock>
+      <UnidadesOrden>60</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="50" Proveedor="23" Categoria="3">
+    <Nombre>Valkoinen suklaa</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 - 100 g bars</CantidadPorUnidad>
+      <PrecioUnitario>16.2500</PrecioUnitario>
+      <UnitInStock>65</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="51" Proveedor="24" Categoria="7">
+    <Nombre>Manjimup Dried Apples</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>50 - 300 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>53.0000</PrecioUnitario>
+      <UnitInStock>20</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="52" Proveedor="24" Categoria="5">
+    <Nombre>Filo Mix</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>16 - 2 kg boxes</CantidadPorUnidad>
+      <PrecioUnitario>7.0000</PrecioUnitario>
+      <UnitInStock>38</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="53" Proveedor="24" Categoria="6">
+    <Nombre>Perth Pasties</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>48 pieces</CantidadPorUnidad>
+      <PrecioUnitario>32.8000</PrecioUnitario>
+      <UnitInStock>0</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>1</Descuento>
+  </Producto>
+  <Producto clave="54" Proveedor="25" Categoria="6">
+    <Nombre>Tourtière</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>16 pies</CantidadPorUnidad>
+      <PrecioUnitario>7.4500</PrecioUnitario>
+      <UnitInStock>21</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="55" Proveedor="25" Categoria="6">
+    <Nombre>Pâté chinois</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 boxes x 2 pies</CantidadPorUnidad>
+      <PrecioUnitario>24.0000</PrecioUnitario>
+      <UnitInStock>115</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="56" Proveedor="26" Categoria="5">
+    <Nombre>Gnocchi di nonna Alice</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 250 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>38.0000</PrecioUnitario>
+      <UnitInStock>21</UnitInStock>
+      <UnidadesOrden>10</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="57" Proveedor="26" Categoria="5">
+    <Nombre>Ravioli Angelo</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 250 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>19.5000</PrecioUnitario>
+      <UnitInStock>36</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="58" Proveedor="27" Categoria="8">
+    <Nombre>Escargots de Bourgogne</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 pieces</CantidadPorUnidad>
+      <PrecioUnitario>13.2500</PrecioUnitario>
+      <UnitInStock>62</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="59" Proveedor="28" Categoria="4">
+    <Nombre>Raclette Courdavault</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>5 kg pkg.</CantidadPorUnidad>
+      <PrecioUnitario>55.0000</PrecioUnitario>
+      <UnitInStock>79</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="60" Proveedor="28" Categoria="4">
+    <Nombre>Camembert Pierrot</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>15 - 300 g rounds</CantidadPorUnidad>
+      <PrecioUnitario>34.0000</PrecioUnitario>
+      <UnitInStock>19</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="61" Proveedor="29" Categoria="2">
+    <Nombre>Sirop d'érable</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 500 ml bottles</CantidadPorUnidad>
+      <PrecioUnitario>28.5000</PrecioUnitario>
+      <UnitInStock>113</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="62" Proveedor="29" Categoria="3">
+    <Nombre>Tarte au sucre</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>48 pies</CantidadPorUnidad>
+      <PrecioUnitario>49.3000</PrecioUnitario>
+      <UnitInStock>17</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="63" Proveedor="7" Categoria="2">
+    <Nombre>Vegie-spread</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>15 - 625 g jars</CantidadPorUnidad>
+      <PrecioUnitario>43.9000</PrecioUnitario>
+      <UnitInStock>24</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="64" Proveedor="12" Categoria="5">
+    <Nombre>Wimmers gute Semmelknödel</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>20 bags x 4 pieces</CantidadPorUnidad>
+      <PrecioUnitario>33.2500</PrecioUnitario>
+      <UnitInStock>22</UnitInStock>
+      <UnidadesOrden>80</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="65" Proveedor="2" Categoria="2">
+    <Nombre>Louisiana Fiery Hot Pepper Sauce</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>32 - 8 oz bottles</CantidadPorUnidad>
+      <PrecioUnitario>21.0500</PrecioUnitario>
+      <UnitInStock>76</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="66" Proveedor="2" Categoria="2">
+    <Nombre>Louisiana Hot Spiced Okra</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 8 oz jars</CantidadPorUnidad>
+      <PrecioUnitario>17.0000</PrecioUnitario>
+      <UnitInStock>4</UnitInStock>
+      <UnidadesOrden>100</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="67" Proveedor="16" Categoria="1">
+    <Nombre>Laughing Lumberjack Lager</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 12 oz bottles</CantidadPorUnidad>
+      <PrecioUnitario>14.0000</PrecioUnitario>
+      <UnitInStock>52</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>10</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="68" Proveedor="8" Categoria="3">
+    <Nombre>Scottish Longbreads</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 boxes x 8 pieces</CantidadPorUnidad>
+      <PrecioUnitario>12.5000</PrecioUnitario>
+      <UnitInStock>6</UnitInStock>
+      <UnidadesOrden>10</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="69" Proveedor="15" Categoria="4">
+    <Nombre>Gudbrandsdalsost</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 kg pkg.</CantidadPorUnidad>
+      <PrecioUnitario>36.0000</PrecioUnitario>
+      <UnitInStock>26</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="70" Proveedor="7" Categoria="1">
+    <Nombre>Outback Lager</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 355 ml bottles</CantidadPorUnidad>
+      <PrecioUnitario>15.0000</PrecioUnitario>
+      <UnitInStock>15</UnitInStock>
+      <UnidadesOrden>10</UnidadesOrden>
+      <Reorden>30</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="71" Proveedor="15" Categoria="4">
+    <Nombre>Flotemysost</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>10 - 500 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>21.5000</PrecioUnitario>
+      <UnitInStock>26</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="72" Proveedor="14" Categoria="4">
+    <Nombre>Mozzarella di Giovanni</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 200 g pkgs.</CantidadPorUnidad>
+      <PrecioUnitario>34.8000</PrecioUnitario>
+      <UnitInStock>14</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>0</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="73" Proveedor="17" Categoria="8">
+    <Nombre>Röd Kaviar</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 150 g jars</CantidadPorUnidad>
+      <PrecioUnitario>15.0000</PrecioUnitario>
+      <UnitInStock>101</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="74" Proveedor="4" Categoria="7">
+    <Nombre>Longlife Tofu</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>5 kg pkg.</CantidadPorUnidad>
+      <PrecioUnitario>10.0000</PrecioUnitario>
+      <UnitInStock>4</UnitInStock>
+      <UnidadesOrden>20</UnidadesOrden>
+      <Reorden>5</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="75" Proveedor="12" Categoria="1">
+    <Nombre>Rhönbräu Klosterbier</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>24 - 0.5 l bottles</CantidadPorUnidad>
+      <PrecioUnitario>7.7500</PrecioUnitario>
+      <UnitInStock>125</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>25</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="76" Proveedor="23" Categoria="1">
+    <Nombre>Lakkalikööri</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>500 ml</CantidadPorUnidad>
+      <PrecioUnitario>18.0000</PrecioUnitario>
+      <UnitInStock>57</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>20</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+  <Producto clave="77" Proveedor="12" Categoria="2">
+    <Nombre>Original Frankfurter grüne Soße</Nombre>
+    <Unidad>
+      <CantidadPorUnidad>12 boxes</CantidadPorUnidad>
+      <PrecioUnitario>13.0000</PrecioUnitario>
+      <UnitInStock>32</UnitInStock>
+      <UnidadesOrden>0</UnidadesOrden>
+      <Reorden>15</Reorden>
+    </Unidad>
+    <Descuento>0</Descuento>
+  </Producto>
+</Productos>
+
+<Categorias>
+	<Categoria Clave="1">
+		<Categoria>Beverages</Categoria>
+	</Categoria>
+	<Categoria Clave="2">
+		<Categoria>Condiments</Categoria>
+	</Categoria>
+	<Categoria Clave="3">
+		<Categoria>Confections</Categoria>
+	</Categoria>
+	<Categoria Clave="4">
+		<Categoria>Dairy Products</Categoria>
+	</Categoria>
+	<Categoria Clave="5">
+		<Categoria>Grains/Cereals</Categoria>
+	</Categoria>
+	<Categoria Clave="6">
+		<Categoria>Meat/Poultry</Categoria>
+	</Categoria>
+	<Categoria Clave="7">
+		<Categoria>Produce</Categoria>
+	</Categoria>
+	<Categoria Clave="8">
+		<Categoria>Seafood</Categoria>
+	</Categoria>
+</Categorias>
+
+<Proveedores>
+	<Proveedor clave="1">
+		<Compañia>Exotic Liquids</Compañia>
+		<Contacto>
+			<NombreCompañia>Charlotte Cooper</NombreCompañia>
+			<TituloCompañia>Purchasing Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>49 Gilbert St.</Calle>
+			<Ciudad>London</Ciudad>
+			<CodigoPostal>EC1 4SD</CodigoPostal>
+			<Pais>UK</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(171) 555-2222</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="2">
+		<Compañia>New Orleans Cajun Delights</Compañia>
+		<Contacto>
+			<NombreCompañia>Shelley Burke</NombreCompañia>
+			<TituloCompañia>Order Administrator</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>P.O. Box 78934</Calle>
+			<Ciudad>New Orleans</Ciudad>
+			<Region>LA</Region>
+			<CodigoPostal>70117</CodigoPostal>
+			<Pais>USA</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(100) 555-4822</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="3">
+		<Compañia>Grandma Kelly's Homestead</Compañia>
+		<Contacto>
+			<NombreCompañia>Regina Murphy</NombreCompañia>
+			<TituloCompañia>Sales Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>707 Oxford Rd.</Calle>
+			<Ciudad>Ann Arbor</Ciudad>
+			<Region>MI</Region>
+			<CodigoPostal>48104</CodigoPostal>
+			<Pais>USA</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(313) 555-5735</Telefono>
+			<Fax>(313) 555-3349</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="4">
+		<Compañia>Tokyo Traders</Compañia>
+		<Contacto>
+			<NombreCompañia>Yoshi Nagase</NombreCompañia>
+			<TituloCompañia>Marketing Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>9-8 Sekimai Musashino-shi</Calle>
+			<Ciudad>Tokyo</Ciudad>
+			<CodigoPostal>100</CodigoPostal>
+			<Pais>Japan</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(03) 3555-5011</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="5">
+		<Compañia>Cooperativa de Quesos 'Las Cabras'</Compañia>
+		<Contacto>
+			<NombreCompañia>Antonio del Valle Saavedra</NombreCompañia>
+			<TituloCompañia>Export Administrator</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Calle del Rosal 4</Calle>
+			<Ciudad>Oviedo</Ciudad>
+			<Region>Asturias</Region>
+			<CodigoPostal>33007</CodigoPostal>
+			<Pais>Spain</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(98) 598 76 54</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="6">
+		<Compañia>Mayumi's</Compañia>
+		<Contacto>
+			<NombreCompañia>Mayumi Ohno</NombreCompañia>
+			<TituloCompañia>Marketing Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>92 Setsuko Chuo-ku</Calle>
+			<Ciudad>Osaka</Ciudad>
+			<CodigoPostal>545</CodigoPostal>
+			<Pais>Japan</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(06) 431-7877</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="7">
+		<Compañia>Pavlova, Ltd.</Compañia>
+		<Contacto>
+			<NombreCompañia>Ian Devling</NombreCompañia>
+			<TituloCompañia>Marketing Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>74 Rose St. Moonie Ponds</Calle>
+			<Ciudad>Melbourne</Ciudad>
+			<Region>Victoria</Region>
+			<CodigoPostal>3058</CodigoPostal>
+			<Pais>Australia</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(03) 444-2343</Telefono>
+			<Fax>(03) 444-6588</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="8">
+		<Compañia>Specialty Biscuits, Ltd.</Compañia>
+		<Contacto>
+			<NombreCompañia>Peter Wilson</NombreCompañia>
+			<TituloCompañia>Sales Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>29 King's Way</Calle>
+			<Ciudad>Manchester</Ciudad>
+			<CodigoPostal>M14 GSD</CodigoPostal>
+			<Pais>UK</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(161) 555-4448</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="9">
+		<Compañia>PB Knäckebröd AB</Compañia>
+		<Contacto>
+			<NombreCompañia>Lars Peterson</NombreCompañia>
+			<TituloCompañia>Sales Agent</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Kaloadagatan 13</Calle>
+			<Ciudad>Göteborg</Ciudad>
+			<CodigoPostal>S-345 67</CodigoPostal>
+			<Pais>Sweden</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>031-987 65 43</Telefono>
+			<Fax>031-987 65 91</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="10">
+		<Compañia>Refrescos Americanas LTDA</Compañia>
+		<Contacto>
+			<NombreCompañia>Carlos Diaz</NombreCompañia>
+			<TituloCompañia>Marketing Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Av. das Americanas 12.890</Calle>
+			<Ciudad>Sao Paulo</Ciudad>
+			<CodigoPostal>5442</CodigoPostal>
+			<Pais>Brazil</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(11) 555 4640</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="11">
+		<Compañia>Heli Süßwaren GmbH &amp; Co. KG</Compañia>
+		<Contacto>
+			<NombreCompañia>Petra Winkler</NombreCompañia>
+			<TituloCompañia>Sales Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Tiergartenstraße 5</Calle>
+			<Ciudad>Berlin</Ciudad>
+			<CodigoPostal>10785</CodigoPostal>
+			<Pais>Germany</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(010) 9984510</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="12">
+		<Compañia>Plutzer Lebensmittelgroßmärkte AG</Compañia>
+		<Contacto>
+			<NombreCompañia>Martin Bein</NombreCompañia>
+			<TituloCompañia>International Marketing Mgr.</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Bogenallee 51</Calle>
+			<Ciudad>Frankfurt</Ciudad>
+			<CodigoPostal>60439</CodigoPostal>
+			<Pais>Germany</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(069) 992755</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="13">
+		<Compañia>Nord-Ost-Fisch Handelsgesellschaft mbH</Compañia>
+		<Contacto>
+			<NombreCompañia>Sven Petersen</NombreCompañia>
+			<TituloCompañia>Coordinator Foreign Markets</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Frahmredder 112a</Calle>
+			<Ciudad>Cuxhaven</Ciudad>
+			<CodigoPostal>27478</CodigoPostal>
+			<Pais>Germany</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(04721) 8713</Telefono>
+			<Fax>(04721) 8714</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="14">
+		<Compañia>Formaggi Fortini s.r.l.</Compañia>
+		<Contacto>
+			<NombreCompañia>Elio Rossi</NombreCompañia>
+			<TituloCompañia>Sales Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Viale Dante, 75</Calle>
+			<Ciudad>Ravenna</Ciudad>
+			<CodigoPostal>48100</CodigoPostal>
+			<Pais>Italy</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(0544) 60323</Telefono>
+			<Fax>(0544) 60603</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="15">
+		<Compañia>Norske Meierier</Compañia>
+		<Contacto>
+			<NombreCompañia>Beate Vileid</NombreCompañia>
+			<TituloCompañia>Marketing Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Hatlevegen 5</Calle>
+			<Ciudad>Sandvika</Ciudad>
+			<CodigoPostal>1320</CodigoPostal>
+			<Pais>Norway</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(0)2-953010</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="16">
+		<Compañia>Bigfoot Breweries</Compañia>
+		<Contacto>
+			<NombreCompañia>Cheryl Saylor</NombreCompañia>
+			<TituloCompañia>Regional Account Rep.</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>3400 - 8th Avenue Suite 210</Calle>
+			<Ciudad>Bend</Ciudad>
+			<Region>OR</Region>
+			<CodigoPostal>97101</CodigoPostal>
+			<Pais>USA</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(503) 555-9931</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="17">
+		<Compañia>Svensk Sjöföda AB</Compañia>
+		<Contacto>
+			<NombreCompañia>Michael Björn</NombreCompañia>
+			<TituloCompañia>Sales Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Brovallavägen 231</Calle>
+			<Ciudad>Stockholm</Ciudad>
+			<CodigoPostal>S-123 45</CodigoPostal>
+			<Pais>Sweden</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>08-123 45 67</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="18">
+		<Compañia>Aux joyeux ecclésiastiques</Compañia>
+		<Contacto>
+			<NombreCompañia>Guylène Nodier</NombreCompañia>
+			<TituloCompañia>Sales Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>203, Rue des Francs-Bourgeois</Calle>
+			<Ciudad>Paris</Ciudad>
+			<CodigoPostal>75004</CodigoPostal>
+			<Pais>France</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(1) 03.83.00.68</Telefono>
+			<Fax>(1) 03.83.00.62</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="19">
+		<Compañia>New England Seafood Cannery</Compañia>
+		<Contacto>
+			<NombreCompañia>Robb Merchant</NombreCompañia>
+			<TituloCompañia>Wholesale Account Agent</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Order Processing Dept. 2100 Paul Revere Blvd.</Calle>
+			<Ciudad>Boston</Ciudad>
+			<Region>MA</Region>
+			<CodigoPostal>02134</CodigoPostal>
+			<Pais>USA</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(617) 555-3267</Telefono>
+			<Fax>(617) 555-3389</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="20">
+		<Compañia>Leka Trading</Compañia>
+		<Contacto>
+			<NombreCompañia>Chandra Leka</NombreCompañia>
+			<TituloCompañia>Owner</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>471 Serangoon Loop, Suite #402</Calle>
+			<Ciudad>Singapore</Ciudad>
+			<CodigoPostal>0512</CodigoPostal>
+			<Pais>Singapore</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>555-8787</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="21">
+		<Compañia>Lyngbysild</Compañia>
+		<Contacto>
+			<NombreCompañia>Niels Petersen</NombreCompañia>
+			<TituloCompañia>Sales Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Lyngbysild Fiskebakken 10</Calle>
+			<Ciudad>Lyngby</Ciudad>
+			<CodigoPostal>2800</CodigoPostal>
+			<Pais>Denmark</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>43844108</Telefono>
+			<Fax>43844115</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="22">
+		<Compañia>Zaanse Snoepfabriek</Compañia>
+		<Contacto>
+			<NombreCompañia>Dirk Luchte</NombreCompañia>
+			<TituloCompañia>Accounting Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Verkoop Rijnweg 22</Calle>
+			<Ciudad>Zaandam</Ciudad>
+			<CodigoPostal>9999 ZZ</CodigoPostal>
+			<Pais>Netherlands</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(12345) 1212</Telefono>
+			<Fax>(12345) 1210</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="23">
+		<Compañia>Karkki Oy</Compañia>
+		<Contacto>
+			<NombreCompañia>Anne Heikkonen</NombreCompañia>
+			<TituloCompañia>Product Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Valtakatu 12</Calle>
+			<Ciudad>Lappeenranta</Ciudad>
+			<CodigoPostal>53120</CodigoPostal>
+			<Pais>Finland</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(953) 10956</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="24">
+		<Compañia>G'day, Mate</Compañia>
+		<Contacto>
+			<NombreCompañia>Wendy Mackenzie</NombreCompañia>
+			<TituloCompañia>Sales Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>170 Prince Edward Parade Hunter's Hill</Calle>
+			<Ciudad>Sydney</Ciudad>
+			<Region>NSW</Region>
+			<CodigoPostal>2042</CodigoPostal>
+			<Pais>Australia</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(02) 555-5914</Telefono>
+			<Fax>(02) 555-4873</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="25">
+		<Compañia>Ma Maison</Compañia>
+		<Contacto>
+			<NombreCompañia>Jean-Guy Lauzon</NombreCompañia>
+			<TituloCompañia>Marketing Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>2960 Rue St. Laurent</Calle>
+			<Ciudad>Montréal</Ciudad>
+			<Region>Québec</Region>
+			<CodigoPostal>H1J 1C3</CodigoPostal>
+			<Pais>Canada</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(514) 555-9022</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="26">
+		<Compañia>Pasta Buttini s.r.l.</Compañia>
+		<Contacto>
+			<NombreCompañia>Giovanni Giudici</NombreCompañia>
+			<TituloCompañia>Order Administrator</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Via dei Gelsomini, 153</Calle>
+			<Ciudad>Salerno</Ciudad>
+			<CodigoPostal>84100</CodigoPostal>
+			<Pais>Italy</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(089) 6547665</Telefono>
+			<Fax>(089) 6547667</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="27">
+		<Compañia>Escargots Nouveaux</Compañia>
+		<Contacto>
+			<NombreCompañia>Marie Delamare</NombreCompañia>
+			<TituloCompañia>Sales Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>22, rue H. Voiron</Calle>
+			<Ciudad>Montceau</Ciudad>
+			<CodigoPostal>71300</CodigoPostal>
+			<Pais>France</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>85.57.00.07</Telefono>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="28">
+		<Compañia>Gai pâturage</Compañia>
+		<Contacto>
+			<NombreCompañia>Eliane Noz</NombreCompañia>
+			<TituloCompañia>Sales Representative</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>Bat. B 3, rue des Alpes</Calle>
+			<Ciudad>Annecy</Ciudad>
+			<CodigoPostal>74000</CodigoPostal>
+			<Pais>France</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>38.76.98.06</Telefono>
+			<Fax>38.76.98.58</Fax>
+		</Contacto>
+	</Proveedor>
+	<Proveedor clave="29">
+		<Compañia>Forêts d'érables</Compañia>
+		<Contacto>
+			<NombreCompañia>Chantal Goulet</NombreCompañia>
+			<TituloCompañia>Accounting Manager</TituloCompañia>
+		</Contacto>
+		<Domicilio>
+			<Calle>148 rue Chasseur</Calle>
+			<Ciudad>Ste-Hyacinthe</Ciudad>
+			<Region>Québec</Region>
+			<CodigoPostal>J2S 7S8</CodigoPostal>
+			<Pais>Canada</Pais>
+		</Domicilio>
+		<Contacto>
+			<Telefono>(514) 555-2955</Telefono>
+			<Fax>(514) 555-2921</Fax>
+		</Contacto>
+	</Proveedor>
+</Proveedores>
+</Proyecto>
